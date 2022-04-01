@@ -1,0 +1,115 @@
+
+.shadow{
+  
+}
+
+span{
+  font-size: 11px;
+}
+
+
+section,
+header{
+  padding: 10px 60px 20px 60px;
+  width: 960px;
+  margin: 0 auto;
+}
+
+header{
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+section{
+  background-color: aliceblue;
+}
+
+
+
+span{
+  color: grey;
+}
+
+.ja{
+  width: 180px;
+  height: 180px;
+  margin-right: 70px;
+  border-radius: 50%;
+  border: 10px inset;
+
+}
+
+header ul{
+  list-style: none;
+  font-size: 12px;
+}
+
+header li{
+  margin-bottom: 20px;
+}
+
+header img{
+  width: 16px;
+  height: 16px;
+  background-color: cornflowerblue;
+  margin-right: 10px;
+  border-radius: 16px;
+
+}
+
+.hobbies{
+  list-style: none;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.hobbies li{
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+
+.hobbies div {
+  margin-left: 20px;
+
+}
+
+.hobbies p {
+  color: grey;
+}
+
+p{
+  line-height: 1.5;
+}
+.cv {
+  border: 2px solid cornflowerblue;
+  color: black;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: inline-block;
+  margin-top: 20px;
+  border-radius: 30px;
+  transition: background-color 0.5s, color 0.5s;
+  box-shadow: 0 0 20px grey;
+}
+
+
+.cv:hover{
+  color: white;
+  background-color: cornflowerblue;
+}
+
+.cv:focus{
+  outline: none;
+  color: white;
+  background-color: cornflowerblue;
+}
+
+.cv:active{
+  text-decoration: underline;
+}
